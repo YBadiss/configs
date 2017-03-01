@@ -1,0 +1,13 @@
+#!/bin/sh
+
+function build_git_link {
+  echo "https://github.com/$1/$2.git"
+}
+
+org=$1
+repo=$2
+git clone --recursive $(build_git_link $org $repo)
+cd $repo
+git remote set-url --push origin $(build_git_link $USER $repo)
+git remote add upstream $(build_git_link $org $repo)
+git remote add fork $(build_git_link $USER $repo)
