@@ -1,0 +1,9 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =7
+let g:netrw_dirhist_1='/Users/ybadiss/Documents/git/batman/debian'
+let g:netrw_dirhist_2='/Users/ybadiss/Documents/git/vagrant-boxes/bas-python'
+let g:netrw_dirhist_3='/Users/ybadiss/lunch_protocol/client/html'
+let g:netrw_dirhist_4='/Users/ybadiss/test'
+let g:netrw_dirhist_5='/Users/ybadiss/Documents/git/monorepo/scripts'
+let g:netrw_dirhist_6='/Users/ybadiss/Documents/git/mtvstars/modules/mtveco'
+let g:netrw_dirhist_7='/Users/ybadiss/Documents/git/batman-docker/.git'
